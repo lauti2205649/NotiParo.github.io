@@ -1,0 +1,797 @@
+ul {
+    list-style-type: none;
+  }
+  
+  body {
+    background-color:rgb(247, 247, 247) ;
+    margin: 0;
+    
+  }
+
+
+/* -------menu-------*/ 
+
+ul.menu {
+    position: fixed;
+    list-style-type: none;
+    width: 100%;
+    height: 70px;
+    padding:0;
+    left: 0;
+    top: -16px;
+    background-color: #009ee2;
+    z-index: 5;
+  }
+ 
+  ul.menu li {float: right;}
+  
+  ul.menu li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+  }
+  
+  ul.menu li a:hover:not(.active) {background-color: rgb(97, 96, 96);}
+  
+  ul.menu li a.active {background-color: #04AA6D;}
+ 
+  
+  
+  
+  a{
+    transition: ease 0.12s;
+  }
+  
+  a:hover{
+    border: solid whitesmoke 0.1px;
+  } 
+  
+  .img-volver-menu {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 335px;
+  top: 25px;
+  }
+
+/* -------logo + texto-------*/ 
+  
+.img-logo{
+    position: absolute;
+    left: 20px;
+    top:0px;
+    position: fixed;
+    width: 55px;
+    height: 65px;
+    z-index: 5;
+  }
+  
+.texto-logo {
+  position: fixed;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px;
+  color: white;
+  top: -20px;
+  left: 90px;
+  z-index: 5;
+}
+
+/* -------img + texto del inicio + explicacion de la pagina-------*/ 
+.img-inicio {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+top: 70px;
+}
+
+.que-es-notiparo {
+  color: #004f9f;
+  font-size: 35px;
+}
+
+.texto-explicacion-de-la-pagina {
+position: absolute;
+text-align: center;
+font-family: 'Lexend Deca', sans-serif;
+top: 325px;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+margin: 10px;
+}
+
+/* -------Boton saber mas-------*/ 
+
+.texto-de-notiparo-sabermas {
+margin: 10px;
+text-align: justify;
+}
+ 
+.boton {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 600px;
+  width: 150px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #009ee2;
+  border: solid #009ee2;
+  z-index: 2;
+}
+
+.texto-boton {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 20px;
+top: -5px;
+color: white;
+text-align: center;
+
+}
+
+/* -------tarjetas-------*/ 
+
+.tarjetas-inicio {
+position: relative;
+top: 0;
+}
+
+.tarjeta-1 {
+overflow: hidden;
+background-color: white;
+box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+border-radius: 25px;
+transition: ease 1;
+width: 325px;
+height: 225px;
+top: 700px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.tarjeta-2{
+overflow: hidden;
+background-color: white;
+box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+border-radius: 25px;
+transition: ease 1;
+width: 325px;
+height: 225px;
+top: 750px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.tarjeta-3 {
+overflow: hidden;
+background-color: white;
+box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+border-radius: 25px;
+transition: ease 1;
+width: 325px;
+height: 225px;
+top: 800px;
+margin-bottom: 200px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+.img-tarjetas {
+position: absolute;
+}
+
+#img-tarjeta-1 {
+ top: -15px;
+ width: 60%;
+ left: 70px;
+ }
+
+
+#img-tarjeta-2 {
+top: 25px;
+width: 45%;
+left: 90px;
+}
+
+#img-tarjeta-3 {
+top: 25px;
+width: 45%;
+left: 90px;
+}
+
+.texto-tarjeta {
+  position: absolute;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #004f9f;
+  top: 170px;
+  left: 65px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------footer-------*/ 
+
+
+.footer-inicio {
+position: absolute;
+background-color: rgb(32, 32, 32);
+width: 100%;
+top: 1900px;
+height: 250px;
+}
+
+.img-logo-footer {
+  position: absolute;
+  left: 20px;
+  top:0px;
+  width: 55px;
+  height: 65px;
+  z-index: 1;
+}
+
+.texto-logo-footer {
+  position: absolute;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px;
+  color: white;
+  top: -20px;
+  left: 90px;
+  z-index: 2;
+}
+
+.texto-footer {
+position: absolute;
+text-align: right;
+font-family: 'Lexend Deca', sans-serif;
+color: #009EE2;
+top: 75px;
+left: 50px;
+}
+
+
+
+
+
+
+/* ---------------------------Seccion paro de colectivos----------------------------*/
+
+
+/* -------img + titulo + texto-------*/ 
+
+.img-paro-de-colectivos {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  top: 80px;
+}
+
+
+.texto-titulo {
+color: #004f9f;
+position: absolute;
+text-align: center;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 35px;
+top: 300px;
+}
+
+
+.texto-parrafo {
+position: absolute;
+text-align: left;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 20px;
+top: 450px;
+margin-left: 10px;
+margin-right: 5px;
+}
+
+/* -------Caja-novedades-paro de colectivos-------*/ 
+
+
+.caja-novedades-parodecolectivos{
+position: absolute;
+background-color: white;
+top: 600px;
+left: 35px;
+width: 325px;
+height: 220px;
+border-radius: 9px;
+overflow: auto;
+box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+}
+
+.caja-titulo-novedades-parodecolectivos {
+  position: absolute;
+  top: 600px;
+  left: 35px;
+  width: 325px;
+  height: 45px;
+  border-radius: 9px 9px 0 0;
+  z-index: 1;
+  background-color: #009ee2;
+}
+
+.flecha-novedades-parodecolectivos{
+font-size: 15px;
+color: orange;
+position: absolute;
+top: 0px;
+left: 23px;
+}
+
+
+.titulo-caja-novedades-parodecolectivos{
+font-size: 30px;
+color: white;
+position: absolute;
+top: -22px;
+left: 45px;
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+.texto-caja-novedades-parodecolectivo {
+  position: absolute;
+  padding: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+ 
+}
+
+
+
+
+
+/* -------tarjetas de colectivos-------*/ 
+
+.tarjetas-colectivos  {
+  position: relative;
+  top: 0px;
+}
+
+.tarjeta-colectivos-1 {
+  overflow: hidden; 
+  background-color: white;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+  border-radius: 25px;
+  transition: ease 1;
+  width: 325px;
+  height: 150px;
+  top: 700px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  
+  .tarjeta-colectivos-2{
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+  border-radius: 25px;
+  transition: ease 1;
+  width: 325px;
+  height: 150px;
+  top: 750px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  
+  .tarjeta-colectivos-3 {
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+  border-radius: 25px;
+  transition: ease 1;
+  width: 325px;
+  height: 150px;
+  top: 800px;
+  margin-bottom: 200px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .img-tarjetas-colectivos {
+  position: absolute;
+  }
+  
+  #img-tarjeta-colectivos-1 {
+   top: 45px;
+   width: 150%;
+   left: -90px;
+   }
+  
+  
+  #img-tarjeta-colectivos-2 {
+  top: 40px;
+  width: 80%;
+  left: 25px;
+  }
+  
+  #img-tarjeta-colectivos-3 {
+  top: 50px;
+  width: 80%;
+  left: 35px;
+  }
+  
+  .texto-tarjeta-colectivos {
+    position: absolute;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #004f9f;
+    top: 170px;
+    left: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 10px;
+  }
+
+
+/* -------Empresas de colectivos - CONIFERAL-------*/ 
+
+/* .fondo-de-img-coniferal {
+position: absolute;
+top: 69px;
+width: 100%;
+height: 100px;
+background-color: orange;
+} */
+
+
+.img-inicio-coniferal {
+position: absolute;
+width: 90%;
+top: 105px;
+left: 22px;
+z-index: 1;
+}
+
+/* -------fondo-img-2-------*/ 
+  
+  .img-inicio-coniferal-2 {
+  position: absolute;
+  width: 100%;
+  top: 69px;
+  z-index: 0;
+  }
+
+
+
+/* -------CONIFERAL tarjetas informativas-------*/ 
+
+/* -------tarjetas infromativa novedades-------*/ 
+
+
+
+
+.caja-novedades-coniferal{
+  position: absolute;
+  background-color: white;
+  top: 240px;
+  left: 35px;
+  width: 325px;
+  height: 220px;
+  border-radius: 9px;
+  overflow: auto;
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+  }
+  
+  .caja-titulo-novedades-coniferal{
+    position: absolute;
+    top: 240px;
+    left: 35px;
+    width: 325px;
+    height: 45px;
+    border-radius: 9px 9px 0 0;
+    z-index: 1;
+    background-color: #009ee2;
+  }
+  
+  .flecha-novedades-coniferal{
+  font-size: 15px;
+  color: orange;
+  position: absolute;
+  top: 0px;
+  left: 23px;
+  }
+  
+  
+  .titulo-caja-novedades-coniferal{
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: -22px;
+  left: 45px;
+  font-family: 'Raleway', sans-serif;
+  }
+  
+
+  .texto-caja-novedades-coniferal{
+    position: absolute;
+    padding: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+   
+  }
+
+
+  .fondo-de-colores-novedades {
+  position: absolute;
+  top: 199px;
+  width: 100%;
+  height: 301px;
+  background-color: yellow;
+  } 
+
+
+  /* -------tarjetas infromativa Desvios-------*/
+
+
+  .caja-desvios-coniferal{
+    position: absolute;
+    background-color: white;
+    top: 540px;
+    left: 35px;
+    width: 325px;
+    height: 220px;
+    border-radius: 9px;
+    overflow: auto;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+    }
+    
+    .caja-titulo-desvios-coniferal{
+      position: absolute;
+      top: 540px;
+      left: 35px;
+      width: 325px;
+      height: 45px;
+      border-radius: 9px 9px 0 0;
+      z-index: 1;
+      background-color: #009ee2;
+    }
+    
+    .flecha-desvios-coniferal{
+    font-size: 15px;
+    color: orange;
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    }
+    
+    
+    .titulo-caja-desvios-coniferal{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: -22px;
+    left: 45px;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    
+    
+    .texto-caja-desvios-coniferal{
+      position: absolute;
+      top: 50px;
+      left: 45px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+
+
+    .fondo-de-colores-desvio {
+      position: absolute;
+      top: 500px;
+      width: 100%;
+      height: 301px;
+      background-color: #FF8C00;
+      } 
+
+  
+  /* -------tarjetas infromativa Recorridos-------*/
+  
+
+  .caja-recorridos-coniferal{
+    position: absolute;
+    background-color: white;
+    top: 841px;
+    left: 35px;
+    width: 325px;
+    height: 220px;
+    border-radius: 9px;
+    overflow: auto;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+    }
+    
+    .caja-titulo-recorridos-coniferal{
+      position: absolute;
+      top: 841px;
+      left: 35px;
+      width: 325px;
+      height: 45px;
+      border-radius: 9px 9px 0 0;
+      z-index: 1;
+      background-color: #009ee2;
+    }
+    
+    .flecha-recorridos-coniferal{
+    font-size: 15px;
+    color: orange;
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    }
+    
+    
+    .titulo-caja-recorridos-coniferal{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: -22px;
+    left: 45px;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    
+    
+    .texto-caja-recorridos-coniferal{
+      position: absolute;
+      top: 50px;
+      left: 35px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+
+
+    .fondo-de-colores-recorridos {
+      position: absolute;
+      top: 801px;
+      width: 100%;
+      height: 301px;
+      background-color: #7B68EE;
+      } 
+
+
+
+  /* -------tarjetas infromativa Tiempo De Espera-------*/ 
+
+
+
+  .caja-tiempodeespera-coniferal{ 
+    position: absolute;
+    background-color: white;
+    top: 1142px;
+    left: 35px;
+    width: 325px;
+    height: 220px;
+    border-radius: 9px;
+    overflow: auto;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.30);
+    }
+    
+    .caja-titulo-tiempodeespera-coniferal{
+      position: absolute;
+      top: 1142px;
+      left: 35px;
+      width: 325px;
+      height: 45px;
+      border-radius: 9px 9px 0 0;
+      z-index: 1;
+      background-color: #009ee2;
+    }
+    
+    .flecha-tiempodeespera-coniferal{
+    font-size: 15px;
+    color: orange;
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    }
+    
+    
+    .titulo-caja-tiempodeespera-coniferal{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: -22px;
+    left: 45px;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    
+    
+    .texto-caja-tiempodeespera-coniferal{
+      position: absolute;
+      margin: 70px 35px 20px 35px;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .fondo-de-colores-tiempo-de-espera {
+      position: absolute;
+      top: 1102px;
+      width: 100%;
+      height: 301px;
+      background-color: rgb(0, 255, 0);
+      } 
+
+/* -------Linea negra coniferal-------*/ 
+
+      .linea-negra-coniferal {
+      position: absolute;
+      top: 1398px;
+      width: 100%;
+      height: 10px;
+      background-color: black;
+      z-index: 2;
+      }
+
+
+      .linea-negra-coniferal-2 {
+        position: absolute;
+        top: 1750px;
+        width: 100%;
+        height: 10px;
+        background-color: black;
+        z-index: 2;
+        }
+  
+
+      /* -------Redes Sociales de coniferal-------*/ 
+  
+      
+
+      .titulo-redes-sociales-coniferal {
+      position: relative;
+      text-align: center;
+      top: 1450px;
+      font-size: 30px;
+      font-weight: lighter;
+      font-family: 'Lexend Deca', sans-serif;
+      }
+
+
+      #logos-redes-sociales-coniferal {
+        position: relative;
+        top: 1500px;
+        left: 85px;
+        width: 50px;
+        height: 50px;
+        margin: 0 10px 0 10px;
+      }
+
+
